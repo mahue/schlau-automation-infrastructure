@@ -4,6 +4,7 @@
 ### Domain: schlau-automation.de
 ### Internal Hostname: huener.net-main (Hetzner)
 ### IP: 159.69.156.6 | 2a01:4f8:1c1a:133a::/64
+### Database: schlau-automation
 
 #### Role
 Primary production server for the schlau AUTOMATION team.  
