@@ -34,6 +34,10 @@ Hosts all internal, stable, business-critical services.
 ### Public Domain: schlau-playground.de
 ### Internal Hostname: schlau.d3.net (Hetzner)
 ### IP: 49.12.229.72
+### Instances:
+1) schlau-automation.schlau-playground.de (our playground / sandbox)
+2) energieausweis24.schlau-playground.de
+3) r-industries.schlau-playground.de
 
 #### Role
 Dedicated sandbox server mostly for odoo test instances , client & internal playgrounds.
