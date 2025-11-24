@@ -55,18 +55,13 @@ https://schlau-automation.schlau-playground.de
 
 #### Isolation Requirements
 Each odoo playground instance must have:
-- Dedicated Linux user: `pg_<username>`
-- Dedicated systemd service: `pgodoo-<username>.service`
 - Dedicated PostgreSQL database + PG user
-- Dedicated port (starting at 11000, increment +1)
 - Dedicated filesystem, configs, logs
-- Database selector disabled (`list_db = False`)
 - Odoo 19
 - Reverse proxy via global NGINX with per-instance site config
-- Zero manual server interaction during deployment
 
 #### Notes
-This server has a testing purpose and is isolated from the production infrastructure.
+This server has a testing purpose and is isolated from the production infrastructure!
 
 ---
 
