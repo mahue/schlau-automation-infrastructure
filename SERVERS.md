@@ -80,16 +80,19 @@ This server has a testing purpose and is isolated from the production infrastruc
 #### Notes
 This server is single-purpose and isolated from the automation infrastructure.
 
+---
+
 ## 4. zero-human company Server
 ### Domain: huener.cloud
-### Server Name: lieferapp.app-01 (IONOS)
+### Server Name: (Netcup)
 ### IP: 159.195.27.238
 
 #### Hosted Services
 | Service | URL |
 |--------|-----|
-| Manus Backend/Frontend | https://huener.cloud |
-| Rocket.Chat (lieferapp/client team) | https://rocketchat.huener.cloud |
+| Odoo Backend/Frontend | https://huener.cloud |
+| Rocket.Chat | https://rocketchat.huener.cloud |
+| Multi-Agent-System | https://mas.huener.cloud |
 
 #### Notes
 This server is single-purpose and isolated from the automation infrastructure.
