@@ -1,18 +1,17 @@
-# schlau AUTOMATION – Infrastructure Overview
+# Huener.net – Infrastructure Overview
 
 ## 1. Production Server
-### Domain: schlau-automation.de
+### Domain: Huener.net
 ### Internal Hostname: huener.net-main (Hetzner)
 ### IP: 159.69.156.6 | 2a01:4f8:1c1a:133a::/64
 ### Database: schlau-automation
 
 #### Role
-Primary production server for the schlau AUTOMATION team.  
+Primary production server for Huener.net  
 Hosts all internal, stable, business-critical services.
 
-#### Public Domains
-- schlau-automation.de  
-- huener.net (mirrored domain)
+#### Public Domain
+- huener.net
 
 #### Hosted Services
 | Service | URL |
@@ -26,11 +25,13 @@ Hosts all internal, stable, business-critical services.
 #### Notes
 - This server hosts only internal infrastructure.  
 - No customer playgrounds or test systems.  
-- huener.net must mirror all services 1:1.
 
 ---
 
 ## 2. Playground Server
+
+### TO BE RESETTED!!
+
 ### Public Domain: schlau-playground.de
 ### Internal Hostname: schlau.d3.net (Hetzner)
 ### IP: 49.12.229.72
