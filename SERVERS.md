@@ -3,24 +3,21 @@
 ## 1. Production Server
 ### Domain: Huener.net
 ### Internal Hostname: huener.net-main (Hetzner)
-### IP: 159.69.156.6 | 2a01:4f8:1c1a:133a::/64
-### Database: schlau-automation
+### IP: 159.69.156.6
 
 #### Role
 Primary production server for Huener.net  
 Hosts all internal, stable, business-critical services.
 
-#### Public Domain
-- huener.net
-
 #### Hosted Services
 | Service | URL |
 |--------|-----|
-| Odoo Production | https://odoo.schlau-automation.de |
-| Rocket.Chat Production | https://rocketchat.schlau-automation.de |
-| n8n Production | https://n8n.schlau-automation.de |
-| Wekan Production | https://wecan.schlau-automation.de |
-| XcaliDraw Production | https://xcalidraw.schlau-automation.de |
+| Odoo Production | https://odoo.huener.net |
+| Rocket.Chat Production | https://rocketchat.huener.net |
+| n8n Production | https://n8n.huener.net |
+| paperclip Production | https://paperclip.huener.net |
+| supabase Production | https://supabase.huener.net |
+| API Production | https://api.huener.net |
 
 #### Notes
 - This server hosts only internal infrastructure.  
@@ -28,41 +25,15 @@ Hosts all internal, stable, business-critical services.
 
 ---
 
-## 2. Playground Server
+## 2. Huener.net Playground Server
+### Domain: huener.cloud
+### Server Name: (Netcup)
+### IP: 159.195.27.238
 
-### TO BE RESETTED!!
-
-### Public Domain: schlau-playground.de
-### Internal Hostname: schlau.d3.net (Hetzner)
-### IP: 49.12.229.72
-### Instances:
-1) schlau-automation.schlau-playground.de (our playground / sandbox)
-2) energieausweis24.schlau-playground.de
-3) r-industries.schlau-playground.de
-
-#### Role
-Dedicated sandbox server mostly for odoo test instances , client & internal playgrounds.
-
-#### Playground Structure
-Each isolated odoo instance is available under:
-```
-https://<username>.schlau-playground.de
-```
-
-Example internal sandbox:
-```
-https://schlau-automation.schlau-playground.de
-```
-
-#### Isolation Requirements
-Each odoo playground instance must have:
-- Dedicated PostgreSQL database + PG user
-- Dedicated filesystem, configs, logs
-- Odoo 19
-- Reverse proxy via global NGINX with per-instance site config
-
-#### Notes
-This server has a testing purpose and is isolated from the production infrastructure!
+#### Hosted Services
+| Service | URL |
+|--------|-----|
+| paperclip playground | https://paperclip.huener.cloud |
 
 ---
 
@@ -77,23 +48,15 @@ This server has a testing purpose and is isolated from the production infrastruc
 | LieferApp Backend/Frontend | https://lieferapp.app |
 | Rocket.Chat (lieferapp/client team) | https://rocketchat.lieferapp.app |
 
-#### Notes
-This server is single-purpose and isolated from the automation infrastructure.
-
 ---
 
-## 4. zero-human company Server
-### Domain: huener.cloud
-### Server Name: (Netcup)
-### IP: 159.195.27.238
+## 4. OLD Playground Server
 
-#### Hosted Services
-| Service | URL |
-|--------|-----|
-| Odoo Backend/Frontend | https://huener.cloud |
-| Rocket.Chat | https://rocketchat.huener.cloud |
-| Multi-Agent-System | https://mas.huener.cloud |
+### !! TO BE DELETED !!
 
-#### Notes
-This server is single-purpose and isolated from the automation infrastructure.
+### Public Domain: schlau-playground.de
+### Internal Hostname: schlau.d3.net (Hetzner)
+### IP: 49.12.229.72
+
+---
 
