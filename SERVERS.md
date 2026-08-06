@@ -25,7 +25,7 @@ Hosts all internal, stable, business-critical services.
 
 ---
 
-## 2. Huener.net Playground Server
+## 2. Huener.cloud (Playground Server)
 ### Domain: huener.cloud
 ### Server Name: (Netcup)
 ### IP: 159.195.27.238
